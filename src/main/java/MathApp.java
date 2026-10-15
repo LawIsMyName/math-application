@@ -18,9 +18,9 @@ public class MathApp {
       System.out.println("The lowest price is" + " " + lowestPrice);
 
       double radius = 7.25;
-      double area =  3.14 * radius * radius;
+      double area =  Math.PI * radius * radius;
 
-        System.out.println("The Area of the circle with a raduis of" + " " + radius + area);
+        System.out.println("The Area of the circle with a radius of" + " " + radius + " " + "is" + " " + area);
 
 
 
