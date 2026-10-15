@@ -17,6 +17,13 @@ public class MathApp {
       double lowestPrice = Math.min(carPrice, truckPrice);
       System.out.println("The lowest price is" + " " + lowestPrice);
 
+      double radius = 7.25;
+      double area =  3.14 * radius * radius;
+
+        System.out.println("The Area of the circle with a raduis of" + " " + radius + area);
+
+
+
 
 
     }
