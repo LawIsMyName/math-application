@@ -10,6 +10,12 @@ public class MathApp {
       System.out.println("The highest salary is" + " " + highestSalary);
 
 
+      double carPrice = 28500;
+      double truckPrice = 47800;
+
+      double lowestSalary = Math.min(carPrice, truckPrice);
+
+
 
 
     }
