@@ -1,10 +1,16 @@
 public class MathApp {
     public static void main(String[] args) {
 
-        double bobSalary = 55,000.00;
-        double garySalary = 85,500.00;
+        // add  double variables
+        double bobSalary = 55000;
+        double garySalary = 85500;
 
+        // add print function and find highestSalary
       double highestSalary = Math.max(bobSalary, garySalary);
-        System.out.println("");
+      System.out.println("The highest salary is" + " " + highestSalary);
+
+
+
+
     }
 }
