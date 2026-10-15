@@ -13,8 +13,8 @@ public class MathApp {
       double carPrice = 28500;
       double truckPrice = 47800;
 
-      double lowestSalary = Math.min(carPrice, truckPrice);
-
+      double lowestPrice = Math.min(carPrice, truckPrice);
+      System.out.println("The lowest price is" + " " + lowestPrice);
 
 
 
